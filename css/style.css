@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* sidebar css */
+
+.sidebar{
+    background-color: rgb(200 136 227);
+    /* width: 250px; */
+    position: absolute;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar h1{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold; 
+    padding: 35px 0px;
+    margin: 20px;
+}
+.sidebar nav{
+    padding: 0px 40px;
+    margin: -20px 0px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 22px 0;
+}
+
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+
+.main{
+    background-color:  white;
+    width: 90vw;
+    /* padding:25px; */
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-around;
+    margin: 160px 0;
+ }
+ .sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ }
+ .hamburger{
+    position: absolute;
+    top: 10px;
+    left:10px;
+    cursor: pointer;
+ }
+ .cross{
+    margin-left: 197px;
+    margin-top: -12px;  
+ }
+
+ /* self intro css */
+
+.infocontainer{
+    background-color: rgb(251, 255, 247);
+    height:60vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    word-wrap: break-word;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    width: 60vw;
+}
+
+.devpic img{
+    height: 60vh;
+}
+
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.buttons button{
+    border-radius: 12px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(200 136 227);
+    font-weight: bold;
+    margin: 18px 4px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: black;
+    background-color: white;
+}
+.socialmedia {
+    display: flex;
+    justify-content: space-around;
+    margin: 160px 0;
+ }
+ .sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ }
+ .hamburger{
+    position: absolute;
+    top: 10px;
+    left:10px;
+    cursor: pointer;
+ }
+ .cross{
+    margin-left: 197px;
+    margin-top: -12px;  
+ }
+
+
+ @media (max-width: 1000px){
+     
+    .devpic{
+        display: none;
+    }
+ }
