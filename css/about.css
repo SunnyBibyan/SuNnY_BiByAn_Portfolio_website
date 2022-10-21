@@ -43,6 +43,7 @@
     background-color:  white;
     width: 90vw;
     /* padding:25px; */
+    word-wrap: break-word;
 }
 .container{
     display: flex;
@@ -79,36 +80,72 @@
     background-color: white;
     box-shadow: 7px 5px 20px #d5a1a1;
  }
- .about-about{
-    /* border: 1px solid; */
-    margin: 25px 12px;
-    padding: 25px 12px;
-    width: 50vw;
- }
+ 
+
+ .about-about h1{
+    text-align: center;
+    box-shadow: 7px 5px 20px #d5a1a1;
+   /* margin: 25px 12px; */
+   /* padding: 25px 12px; */
+   /* width: 50vw; */
+}
+ .about-about p{
+   
+   margin: 25px 12px;
+   padding: 25px 12px;
+   /* width: 50vw; */
+}
  .about-basic{
-    /* border: 1px solid; */
     margin: 25px 12px;
     padding: 25px 12px;
     width: 50vw;
  }
 
+ .about-basic h1{
+   text-align: center;
+   box-shadow: 7px 5px 20px #d5a1a1;
+   margin: -49px -25px 47px;
+   /* margin: 25px 12px;
+   padding: 25px 12px;
+   width: 50vw; */
+}
+
+.basic-info-table table tbody tr{
+   box-shadow: 1px 1px 0px #d5a1a1;
+}
+.basic-info-table{
+   margin: 30px;
+}
+
  .about-skills{
-    border: 1px solid;
-    margin: 68px;
-    padding: 25px 12px;
+    margin: 180px 8px 0px 150px;
+    background-color: white;
+    box-shadow: 7px 5px 20px #d5a1a1;
+ }
+
+ .about-skills h1{
+   text-align: center;
+   box-shadow: 7px 5px 20px #d5a1a1;
  }
 
  .about-skills li{
-    border: 1px solid;
-    margin: 15px 12px;
+    /* border: 1px solid; */
+    margin: 15px 25px;
     padding: 0px 0px;
+    box-shadow: 7px 5px 20px #d5a1a1;
  }
 
  .about-education{
-    border: 1px solid;
-    margin: 65px;
+    margin: 180px 8px 0px 150px;
+    background-color: white;
+    box-shadow: 7px 5px 20px #d5a1a1;
  }
  
+ .about-education h1{
+   text-align: center;
+   box-shadow: 7px 5px 20px #d5a1a1;
+ }
+
  .about-education-btech{
     padding: 20px;
     margin: 15px 0px;
@@ -123,10 +160,16 @@
  }
 
  .about-experience{
-    margin: 65px; 
-    border: 1px solid;
-
+   margin: 180px 8px 0px 150px;
+   background-color: white;
+   box-shadow: 7px 5px 20px #d5a1a1;
  }
+
+ .about-experience h1{
+   text-align: center;
+   box-shadow: 7px 5px 20px #d5a1a1;
+ }
+
 
  .about-experience-intern{
     padding: 10px;
