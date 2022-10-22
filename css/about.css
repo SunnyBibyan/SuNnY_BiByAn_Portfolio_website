@@ -43,7 +43,6 @@
     background-color:  white;
     width: 90vw;
     /* padding:25px; */
-    word-wrap: break-word;
 }
 .container{
     display: flex;
@@ -131,7 +130,7 @@
  .about-skills li{
     /* border: 1px solid; */
     margin: 15px 25px;
-    padding: 0px 0px;
+    /* padding: 0px 0px; */
     box-shadow: 7px 5px 20px #d5a1a1;
  }
 
