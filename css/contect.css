@@ -11,10 +11,10 @@
 /* sidebar css */
 
 .sidebar{
-    background-color: rgb(200 136 227);
+    background-color: black;
     /* width: 250px; */
     position: absolute;
-    height: 100vh;
+    height: 100%;
     font-family: 'Fira Sans', sans-serif;
     transition: transform 0.3s ease-in;
 }
@@ -38,7 +38,7 @@
 
 .sidebar nav li a{
    text-decoration: none;
-   color: black;
+   color: white;
 }
 
 .main{
@@ -77,9 +77,9 @@
     padding: 25px 20px 0px;
     width: 410px;
     height: 390px;
-    border: 1px solid rgb(248, 240, 240);
+    border: 1px solid white;
     border-radius: 9px;
-    background-color: #f7f5f326;
+    background-color: white;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -114,7 +114,7 @@
     border-radius: 12px;
     padding: 7px;
     color: white;
-    background-color: rgb(200 136 227);
+    background-color: black;
     cursor: pointer;
     font-weight: bold;
 }
