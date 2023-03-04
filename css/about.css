@@ -20,6 +20,7 @@
 .sidebar h1{
     font-family: 'Source Code Pro', monospace;
     font-weight: bold; 
+    color: white;
     padding: 35px 0px;
     margin: 20px;
 }
@@ -52,7 +53,7 @@
 .socialmedia {
     display: flex;
     justify-content: space-around;
-    margin: 160px 0;
+    margin: 200px 0;
  }
  .sidebarGo{
     transform: translate(-443px, 0px);
@@ -77,13 +78,13 @@
     display: flex;
     margin:180px 8px 0px 150px;
     background-color: white;
-    box-shadow: 7px 5px 20px #d5a1a1;
+    box-shadow: 7px 5px 20px whitesmoke;
  }
  
 
  .about-about h1{
     text-align: center;
-    box-shadow: 7px 5px 20px #d5a1a1;
+    box-shadow: 7px 5px 20px whitesmoke;
    /* margin: 25px 12px; */
    /* padding: 25px 12px; */
    /* width: 50vw; */
@@ -102,7 +103,7 @@
 
  .about-basic h1{
    text-align: center;
-   box-shadow: 7px 5px 20px #d5a1a1;
+   box-shadow: 7px 5px 20px whitesmoke;
    margin: -49px -25px 47px;
    /* margin: 25px 12px;
    padding: 25px 12px;
@@ -110,7 +111,7 @@
 }
 
 .basic-info-table table tbody tr{
-   box-shadow: 1px 1px 0px #d5a1a1;
+   box-shadow: 1px 1px 0px whitesmoke;
 }
 .basic-info-table{
    margin: 30px;
@@ -119,30 +120,30 @@
  .about-skills{
     margin: 180px 8px 0px 150px;
     background-color: white;
-    box-shadow: 7px 5px 20px #d5a1a1;
+    box-shadow: 7px 5px 20px whitesmoke;
  }
 
  .about-skills h1{
    text-align: center;
-   box-shadow: 7px 5px 20px #d5a1a1;
+   box-shadow: 7px 5px 20px whitesmoke;
  }
 
  .about-skills li{
     /* border: 1px solid; */
     margin: 15px 25px;
     /* padding: 0px 0px; */
-    box-shadow: 7px 5px 20px #d5a1a1;
+    box-shadow: 7px 5px 20px whitesmoke;
  }
 
  .about-education{
     margin: 180px 8px 0px 150px;
     background-color: white;
-    box-shadow: 7px 5px 20px #d5a1a1;
+    box-shadow: 7px 5px 20px whitesmoke;
  }
  
  .about-education h1{
    text-align: center;
-   box-shadow: 7px 5px 20px #d5a1a1;
+   box-shadow: 7px 5px 20px whitesmoke;
  }
 
  .about-education-btech{
@@ -161,12 +162,12 @@
  .about-experience{
    margin: 180px 8px 0px 150px;
    background-color: white;
-   box-shadow: 7px 5px 20px #d5a1a1;
+   box-shadow: 7px 5px 20px whitesmoke;
  }
 
  .about-experience h1{
    text-align: center;
-   box-shadow: 7px 5px 20px #d5a1a1;
+   box-shadow: 7px 5px 20px whitesmoke;
  }
 
 

@@ -21,6 +21,7 @@
 .sidebar h1{
     font-family: 'Source Code Pro', monospace;
     font-weight: bold; 
+    color: white;
     padding: 35px 0px;
     margin: 20px;
 }
@@ -53,7 +54,7 @@
 .socialmedia {
     display: flex;
     justify-content: space-around;
-    margin: 160px 0;
+    margin: 200px 0;
  }
  .sidebarGo{
     transform: translate(-443px, 0px);

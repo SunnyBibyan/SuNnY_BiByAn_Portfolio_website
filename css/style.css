@@ -54,7 +54,7 @@
 .socialmedia {
     display: flex;
     justify-content: space-around;
-    margin: 160px 0;
+    margin: 200px 0;
  }
  .sidebarGo{
     transform: translate(-443px, 0px);
