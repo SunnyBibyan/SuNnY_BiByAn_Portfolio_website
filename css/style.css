@@ -7,12 +7,18 @@
     padding: 0;
 }
 
+
+
+
 /* sidebar css */
 
 .sidebar{
-    background-color: black;
+    background-color: #7A2048;
+    /* background-color: #1E2761;
+    background-color: #408EC6; */
+    
     /* width: 250px; */
-    position: absolute;
+    position: fixed;
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
     transition: transform 0.3s ease-in;
@@ -41,6 +47,11 @@
    color: white;
 }
 
+
+.ham{
+    background-color: #7A2048;
+}
+
 .main{
     background-color:  white;
     width: 90vw;
@@ -54,8 +65,13 @@
 .socialmedia {
     display: flex;
     justify-content: space-around;
-    margin: 200px 0;
+    margin: 50px 0;
  }
+
+ .socialmedia i{
+    color:white;
+  }
+  
  .sidebarGo{
     transform: translate(-443px, 0px);
     position: absolute;
@@ -67,8 +83,9 @@
     cursor: pointer;
  }
  .cross{
-    margin-left: 197px;
-    margin-top: -12px;  
+    margin-left: 193px;
+    margin-top: 0px; 
+    position: fixed; 
  }
 
  /* self intro css */
@@ -102,6 +119,7 @@
     font-family: 'Fira Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
+    color: #7A2048;
 }
 .about{
     font-size: 30px;
@@ -116,14 +134,15 @@
     border-radius: 12px;
     padding: 7px;
     color: white;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #7A2048;
     font-weight: bold;
     margin: 18px 4px;
     cursor: pointer;
 }
 
 .buttons button:hover{
-    color: black;
+    color: #7A2048;
     background-color: white;
 }
 

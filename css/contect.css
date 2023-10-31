@@ -11,7 +11,7 @@
 /* sidebar css */
 
 .sidebar{
-    background-color: black;
+    background-color: #7A2048;
     /* width: 250px; */
     position: absolute;
     height: 100%;
@@ -54,8 +54,13 @@
 .socialmedia {
     display: flex;
     justify-content: space-around;
-    margin: 200px 0;
+    margin: 50px 0;
  }
+
+ .socialmedia i{
+    color:white;
+  }
+
  .sidebarGo{
     transform: translate(-443px, 0px);
     position: absolute;
@@ -67,8 +72,9 @@
     cursor: pointer;
  }
  .cross{
-    margin-left: 197px;
-    margin-top: -12px;  
+    margin-left: 193px;
+    margin-top: 0px; 
+    position: fixed; 
  }
 
  /* contect form css */
@@ -78,14 +84,24 @@
     padding: 25px 20px 0px;
     width: 410px;
     height: 390px;
-    border: 1px solid white;
+    border: 1px solid #7A2048;
     border-radius: 9px;
     background-color: white;
     font-family: 'Fira Sans', sans-serif;
+    box-shadow: 7px 5px 20px #7A2048;
+
+    /* margin: 200px auto;
+    width: 410px;
+    height: 390px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(118, 168, 235);
+    opacity: ; */
 }
 
 .contectform h1{
     font-family: 'Source Code Pro', monospace;
+    color: #7A2048;
 }
 
 .contectform form div{
@@ -115,13 +131,13 @@
     border-radius: 12px;
     padding: 7px;
     color: white;
-    background-color: black;
+    background-color: #7A2048;
     cursor: pointer;
     font-weight: bold;
 }
 
 .contectform form button:hover{
-    color: black;
+    color: #7A2048;
     background-color: white;
 }
 

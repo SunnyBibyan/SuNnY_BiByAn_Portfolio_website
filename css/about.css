@@ -9,9 +9,9 @@
 
 /* siebar css */
 .sidebar{
-    background-color: black;
+    background-color: #7A2048;
     /* width: 250px; */
-    position: absolute;
+    position: fixed;
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
     transition: transform 0.3s ease-in;
@@ -53,8 +53,14 @@
 .socialmedia {
     display: flex;
     justify-content: space-around;
-    margin: 200px 0;
+    margin: 50px 0;
  }
+
+ .socialmedia i{
+   color:white;
+   size: 20px;
+ }
+
  .sidebarGo{
     transform: translate(-443px, 0px);
     position: absolute;
@@ -66,8 +72,9 @@
     cursor: pointer;
  }
  .cross{
-    margin-left: 197px;
-    margin-top: -12px;  
+    margin-left: 193px;
+    margin-top: 0px;  
+    position: fixed;
  }
 
 /* about section css */
@@ -78,13 +85,15 @@
     display: flex;
     margin:180px 8px 0px 150px;
     background-color: white;
-    box-shadow: 7px 5px 20px whitesmoke;
+    border: 1px solid #7A2048;
+    box-shadow: 7px 5px 20px #7A2048;
  }
  
 
  .about-about h1{
     text-align: center;
-    box-shadow: 7px 5px 20px whitesmoke;
+    box-shadow: 7px 5px 20px #7A2048;
+    color: #7A2048;
    /* margin: 25px 12px; */
    /* padding: 25px 12px; */
    /* width: 50vw; */
@@ -103,8 +112,9 @@
 
  .about-basic h1{
    text-align: center;
-   box-shadow: 7px 5px 20px whitesmoke;
+   box-shadow: 7px 5px 20px #7A2048;
    margin: -49px -25px 47px;
+   color: #7A2048;
    /* margin: 25px 12px;
    padding: 25px 12px;
    width: 50vw; */
@@ -120,12 +130,14 @@
  .about-skills{
     margin: 180px 8px 0px 150px;
     background-color: white;
-    box-shadow: 7px 5px 20px whitesmoke;
+    border: 1px solid #7A2048;
+    box-shadow: 7px 5px 20px #7A2048;
  }
 
  .about-skills h1{
    text-align: center;
-   box-shadow: 7px 5px 20px whitesmoke;
+   box-shadow: 7px 5px 20px #7A2048;
+   color: #7A2048;
  }
 
  .about-skills li{
@@ -138,12 +150,14 @@
  .about-education{
     margin: 180px 8px 0px 150px;
     background-color: white;
-    box-shadow: 7px 5px 20px whitesmoke;
+    border: 1px solid #7A2048;
+    box-shadow: 7px 5px 20px #7A2048;
  }
  
  .about-education h1{
    text-align: center;
-   box-shadow: 7px 5px 20px whitesmoke;
+   box-shadow: 7px 5px 20px #7A2048;
+   color: #7A2048;
  }
 
  .about-education-btech{
@@ -162,12 +176,14 @@
  .about-experience{
    margin: 180px 8px 0px 150px;
    background-color: white;
-   box-shadow: 7px 5px 20px whitesmoke;
+   border: 1px solid #7A2048;
+    box-shadow: 7px 5px 20px #7A2048;
  }
 
  .about-experience h1{
    text-align: center;
-   box-shadow: 7px 5px 20px whitesmoke;
+   box-shadow: 7px 5px 20px #7A2048;
+   color: #7A2048;
  }
 
 
